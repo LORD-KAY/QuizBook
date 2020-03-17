@@ -16,16 +16,17 @@
          android:textSize="28sp"
          android:text="If you want help at any moment then feel free to write to me , I will be happy to assist you."
          android:textAlignment="center"/>
+
     <Button
+        android:id="@+id/help"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginTop="100dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
         android:layout_marginRight="20dp"
+        android:background="@color/colorPrimaryDark"
         android:text="Want Help"
-        android:textSize="20sp"
-        android:id="@+id/help"
         android:textAllCaps="false"
         android:textColor="#fff"
-        />
+        android:textSize="20sp" />
 </LinearLayout>

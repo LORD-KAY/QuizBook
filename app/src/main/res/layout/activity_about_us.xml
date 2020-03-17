@@ -42,16 +42,17 @@
                 android:id="@+id/i"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"/>
+
             <TextView
+                android:id="@+id/q"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:text="QuizBook"
                 android:layout_below="@+id/i"
-                android:id="@+id/q"
                 android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
-                android:layout_gravity="center_horizontal"/>
+                android:text="SIMB"
+                android:textSize="24sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
