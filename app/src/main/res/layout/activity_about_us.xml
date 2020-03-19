@@ -70,14 +70,15 @@
             android:text="@string/note"
             android:layout_margin="10dp" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_marginTop="10dp"
-                android:layout_height="wrap_content"
-                android:text="Visit Website"
-                android:textColor="#56a15a"
-                android:background="?attr/selectableItemBackground"
-                android:id="@+id/visit_website"/>
+        <Button
+            android:id="@+id/visit_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="Visit Website"
+            android:textColor="#56a15a"
+            android:visibility="gone" />
 
     </LinearLayout>
 

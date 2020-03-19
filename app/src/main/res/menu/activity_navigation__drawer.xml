@@ -18,18 +18,6 @@
                 android:id="@+id/nav_share"
                 android:icon="@drawable/share_drawer"
                 android:title="Share" />
-            <item
-                android:id="@+id/nav_feedback"
-                android:icon="@drawable/feedback_drawer"
-                android:title="Feedback" />
-            <item
-                android:id="@+id/nav_Help"
-                android:icon="@drawable/help_drawer"
-                android:title="Help" />
-            <item
-                android:id="@+id/nav_aboutus"
-                android:icon="@drawable/about_us_drawer"
-                android:title="Visit Developer" />
         </menu>
     </item>
 
